@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-WORKDIR /site
+WORKDIR /usr/share/nginx/html/
 COPY index.html .
 
 EXPOSE 80
