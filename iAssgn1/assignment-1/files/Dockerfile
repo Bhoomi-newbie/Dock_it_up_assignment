@@ -1,8 +1,6 @@
-FROM python:3.11-slim
+FROM nginx:alpine
 
-WORKDIR /app
+WORKDIR /site
 COPY index.html .
 
-EXPOSE 8000
-
-CMD ["python", "-m", "http.server", "8000"]
+EXPOSE 80
