@@ -47,6 +47,7 @@ curl http://localhost:7070
 ```
 
 <br>
+<img width="1919" height="1199" alt="my_screenshot" src="https://github.com/user-attachments/assets/da0bbe50-315b-4f28-9fff-3c23384ef706" />
 
 <br>
 5. Stop and remove the container after testing using
