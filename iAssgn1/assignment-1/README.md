@@ -1,7 +1,7 @@
 <h1>Assignment 1</h1>
 For this assignment, we had to create our custom website and run it using docker
 <h3> Approach and commands used</h3>
-1. Create a Dockerfile(for serving page through nginx) andvan "index.html".
+1. Create a Dockerfile(for serving page through nginx) and an "index.html".
 <br><br>
 2. Build an image named "bhoomi-site" using
 
