@@ -2,7 +2,7 @@
 For this task, we had to work with 2 containers and show their connectivity.
 ### Approach and commands used
 <br>
-1. Create custom docker network named  `webnet`  using
+1. Create custom docker network named  "webnet"  using
 
 ```
 docker network create webnet
@@ -10,21 +10,21 @@ docker network create webnet
 
 <br>
 2. Write Dockerfile and create an 'index.html' file for building image of web container. <br>
-3. Build the image named `mysite` using
+3. Build the image named "mysite" using
 
  ```
  docker build -t mysite .
  ```
 
  <br>
-4. Run a container named  `web`  on custom docker network accessible on port 6060 of the host using 
+4. Run a container named  "web"  on custom docker network accessible on port 6060 of the host using 
 
 ```
 docker run -d --name web --network webnet -p 6060:80 mysite
 ```
 
 <br>
-5. Create API container using prebuilt image  `hashicorp/http-echo`  on docker network using
+5. Create API container using prebuilt image  "hashicorp/http-echo"  on docker network using
 
 ```
 docker run -d --name api --network webnet hashicorp/http-echo -text="Hello from API"
@@ -39,7 +39,7 @@ docker exec -it web curl http://api:5678
 ```
 
 <br>
- **Curl output** 
+Curl output: 
 
 ```
 Hello from API
