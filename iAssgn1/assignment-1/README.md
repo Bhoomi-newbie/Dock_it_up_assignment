@@ -47,7 +47,7 @@ curl http://localhost:7070
 ```
 
 <br>
-![curl output](https://github.com/Bhoomi-newbie/Dock_it_up_assignment/blob/main/iAssgn1/assignment-1/images/my_screenshot.png)
+
 <br>
 5. Stop and remove the container after testing using
 
