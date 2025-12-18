@@ -2,7 +2,7 @@
 For this assignment, we had to create our custom website and run it using docker
 <h3> Approach and commands used</h3>
 1. Create a Dockerfile(for serving page through nginx) andvan "index.html".
-<br>
+<br><br>
 2. Build an image named "bhoomi-site" using
 
 ```
@@ -51,6 +51,6 @@ curl http://localhost:7070
 
 ```
 docker stop asn_one
-docker stop asn_one
+docker rm asn_one
 ```
 
