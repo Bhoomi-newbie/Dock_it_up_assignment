@@ -47,6 +47,8 @@ curl http://localhost:7070
 ```
 
 <br>
+![curl output](iAssgn1/assignment-1/images/my_screenshot.png)
+<br>
 5. Stop and remove the container after testing using
 
 ```
